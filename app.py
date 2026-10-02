@@ -113,7 +113,7 @@ def them_mon(
 # =========================
 # GIAO DIỆN
 # =========================
-st.title("🧋 QUÁN TRÀ SỮA")
+st.title("🧋 QUÁN TRÀ SỮA ÚT THẢO")
 st.caption("Ứng dụng gọi món và tính tiền tự động")
 
 st.divider()
@@ -417,7 +417,7 @@ if st.session_state.invoice:
 
     # Tạo nội dung hóa đơn TXT
     noi_dung = [
-        "          QUAN TRA SUA",
+        "          QUAN TRA SUA UT THAO",
         "       HOA DON THANH TOAN",
         "=" * 32,
         f"Ma hoa don: {hd['ma_hd']}",
